@@ -1,23 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "D:\\MyProjects\\GraphQL\\GraphQLandHotchocolate\\CommanderGQL\\CommanderGQL.csproj": {}
+    "D:\\Projects\\GraphQL\\GraphQLandHotchocolate\\GraphQLandHotchocolate\\CommanderGQL.csproj": {}
   },
   "projects": {
-    "D:\\MyProjects\\GraphQL\\GraphQLandHotchocolate\\CommanderGQL\\CommanderGQL.csproj": {
+    "D:\\Projects\\GraphQL\\GraphQLandHotchocolate\\GraphQLandHotchocolate\\CommanderGQL.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\MyProjects\\GraphQL\\GraphQLandHotchocolate\\CommanderGQL\\CommanderGQL.csproj",
+        "projectUniqueName": "D:\\Projects\\GraphQL\\GraphQLandHotchocolate\\GraphQLandHotchocolate\\CommanderGQL.csproj",
         "projectName": "CommanderGQL",
-        "projectPath": "D:\\MyProjects\\GraphQL\\GraphQLandHotchocolate\\CommanderGQL\\CommanderGQL.csproj",
-        "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
-        "outputPath": "D:\\MyProjects\\GraphQL\\GraphQLandHotchocolate\\CommanderGQL\\obj\\",
+        "projectPath": "D:\\Projects\\GraphQL\\GraphQLandHotchocolate\\GraphQLandHotchocolate\\CommanderGQL.csproj",
+        "packagesPath": "C:\\Users\\BahaaRashed\\.nuget\\packages\\",
+        "outputPath": "D:\\Projects\\GraphQL\\GraphQLandHotchocolate\\GraphQLandHotchocolate\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
         "configFilePaths": [
-          "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\BahaaRashed\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -25,9 +22,7 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\inetpub\\wwwroot\\Cyclus\\shared\\Cyclus.Shared\\Zyklus.Shared\\bin\\Debug": {},
-          "https://api.nuget.org/v3/index.json": {},
-          "https://cs-nexus.hmg.local:8043/repository/nuget-vida-group/index.json": {}
+          "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net7.0": {

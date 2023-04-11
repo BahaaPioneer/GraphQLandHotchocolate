@@ -4,10 +4,11 @@ using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
 
-builder.Services.AddDbContext<AppDbContext>(options =>
+builder.Services.AddPooledDbContextFactory<AppDbContext>(options =>
 options.UseSqlServer(builder.Configuration.GetConnectionString("CommandConStr")));
 
 builder.Services.AddGraphQLServer()
+                //.RegisterDbContext<AppDbContext>(DbContextKind.Pooled)
                 .AddQueryType<Query>();
 
 var app = builder.Build();
@@ -23,7 +24,5 @@ app.UseEndpoints(endpoints =>
 {
     endpoints.MapGraphQL();
 });
-
-app.MapGet("/", () => "Hello World!");
 
 app.Run();
